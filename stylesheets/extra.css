@@ -1,0 +1,21 @@
+[data-md-color-scheme="slate"] {
+  /* EB colours - main logo colours */
+  --eb-blue:  #98d5e7;
+  --eb-green: #bad8a0;
+
+  /* header background; main background; link; and link on hover */
+  --md-primary-fg-color: #1c1e26;
+  --md-default-bg-color: #2f343f;
+  --md-typeset-a-color:  var(--eb-blue);
+  --md-accent-fg-color:  var(--eb-green);
+}
+[data-md-color-scheme="default"] {
+  /* darker variants of the EB colours */
+  --eb-blue:  #357588;
+  --eb-red:   #ac414c;
+
+  /* header background; link; and link on hover */
+  --md-primary-fg-color: #1c1e26;
+  --md-typeset-a-color:  var(--eb-blue);
+  --md-accent-fg-color:  var(--eb-red);
+}
